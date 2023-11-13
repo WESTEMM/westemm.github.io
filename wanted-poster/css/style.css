@@ -136,5 +136,8 @@ img {width: 100%;
 }
 
 /* Footer */
+footer{padding:1rem;
+    border-top: 2rem #333;
 
+}
 
