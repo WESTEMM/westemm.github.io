@@ -49,7 +49,18 @@ caption {
 }
 
 img {
-    
+  
     width:100%; max-width:4.53125rem;
-    
+  
+    body, html {
+      height: 100%; 
+    }
+    .bg { 
+      background-image: url("img_planets table.png");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
 }
