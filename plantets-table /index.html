@@ -1,95 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Emma West">
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-    </head>
-    body, html {
-        height: 100%; 
-      }
-      .bg { 
-        background-image: url("img_planets.png");
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-  
-      }
-  }
-    <body>
-    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planets Table</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Ensure the body takes up the full height of the viewport */
+        }
 
-        <!-- Wrap the top-level heading in a header element -->
-        
-            <h1>Planets Data</h1>
-        
-        <!-- Add a main element to contain the table -->
-            
-            <!-- Add the table element. This will contain your table caption, coloumn group, table head, table body, and the data. -->
-<table>
-    <caption> Data about the planets of our solar system (Planetary facts taken from <a href="https://nssdc.gsfc.com")/caption>
-    <colgroup>
-        <col span="2" title="Planet groups">
-        <col title="Planet names">
-        <col title="Mass">
-        <col title="Diameter">
-        <col title="Distance">
-        <col title="Gravity">
-        <col title="Length of Day">
-        <col title="Distance from Sun">
-        <col title="Mean temperature">
-        <col title="Number of moons">
-        <col title="Notes">
-        <col title="Images"> 
-    </colgroup>
-    <thead>
-        <tr>
-            <th>scope="<col>Name</th>
-            <th>scope="<col">Mass (10<sup>24</sup>kg)</th>
-            <th>scope="<col">Diameter (km)</th>
-            <th>Density (kg/m<sup>3</sup>)</th>
-            <th>Gravity (m/s<sup>2</sup>)</th>
-            <th>Length of day (hours)</th>
-            <th>Distance from Sun (10<sup>6</sup>km)</th>
-            <th>Mean temperature (°C)</th>
-            <th>Number of moons</th>
-            <th>Notes</th>
-            <th>Image</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th></th>
-            <th> </th>
-            <th></th>
-        </tr>
-    </tbody>
-        </table>
-
-
-                
-                <!-- The caption element should be the first child of the table element, and wrap the following text and link.-->
-        
-                Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
-        
-                <!-- The second child of the table element should be the colgroup element, which also contains several col elements, and helps define the purpose of the table colums. -->
-                    
-                <!-- The table head element should be the third child of the table element; it will wrap the code and content to define a row of column headers. -->    
-                
-                <!-- The fourth child of the table element should be the table body element, which will contain the code and content to display rows of data. -->
-                    
-                <!-- Please note that you do NOT need to add a table footer for this assignment. -->
-    </body>
+        img {
+            width: 50%; /* Adjust as needed */
+            height: auto; /* Maintain the image's aspect ratio */
+            max-height: 100%; /* Ensure the image doesn't exceed the height of the viewport */
+        }
+    </style>
+</head>
+<body>
+    <img src="planets.png" alt="Centered Half-Screen Image">
+    <!-- Add more content if needed -->
+</body>
 </html>
