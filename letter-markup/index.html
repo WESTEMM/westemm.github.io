@@ -8,16 +8,19 @@
     <style>
         body, html {
             height: 100%;
+            margin: 0; /* Add this line to remove default margin */
         }
 
         .bg {
-            image: url("img_lettermarkup.png");
+            background-image: url("img_lettermarkup.png");
             height: 100%;
-            border-image-width: center;
-            border-image-repeat: no-repeat;
-            image-rendering: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; /* Use background-size instead of image-rendering */
         }
     </style>
 </head>
+<body>
     <!-- Your HTML content goes here -->
+</body>
 </html>
