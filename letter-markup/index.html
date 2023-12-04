@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Emma West">
-    <title>Awesome Science Application Correspondence</title>
+    <title>Awesome Science Application</title>
+    <author>Emma West</author>
     <style>
-        body, html {
-            height: 100%;
-            margin: 0; /* Add this line to remove default margin */
+        body {
+            margin: 0;
+            overflow: hidden;
         }
 
-        .bg {
-            background-image: url("img_lettermarkup.png");
+        img {
+            width: 100%;
             height: 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover; /* Use background-size instead of image-rendering */
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
         }
     </style>
 </head>
 <body>
-    <!-- Your HTML content goes here -->
+    <img src="lettermarkup.png" alt="Full-Screen Image">
 </body>
 </html>
