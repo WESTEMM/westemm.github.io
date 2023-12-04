@@ -8,21 +8,16 @@
         body {
             margin: 0;
             overflow: hidden;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh; /* Ensure the body takes up the full height of the viewport */
         }
 
         img {
-            width: 50%; /* Adjust as needed */
-            height: auto; /* Maintain the image's aspect ratio */
-            max-height: 100%; /* Ensure the image doesn't exceed the height of the viewport */
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
         }
     </style>
 </head>
 <body>
-    <img src="planets_data.txt" alt="Centered Half-Screen Image">
-    <!-- Add more content if needed -->
+    <img src="planets.png" alt="Full-Screen Image">
 </body>
 </html>
